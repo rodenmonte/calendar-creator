@@ -1,0 +1,20 @@
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue';
+import Buefy from 'buefy';
+import App from './App';
+import '../node_modules/buefy/dist/buefy.css';
+import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+
+Vue.use(Buefy);
+
+Vue.config.productionTip = false;
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  components: { App },
+  template: '<App/>',
+});
