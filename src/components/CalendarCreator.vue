@@ -99,10 +99,10 @@ export default {
     page-break-after: always;
   }
   .calendar .title {
-    margin: 164px 0 128px 0;
+    margin: 164px 0 164px 0;
   }
   .calendar .columns {
-    margin: 24px 0 24px 0;
+    margin: 30px 0 30px 0;
   }
 }
 .calendar-container {
