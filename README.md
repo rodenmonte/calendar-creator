@@ -1,6 +1,8 @@
-# calendar-vue
+# calendar-creator
 
-> Create and download minimal calendars in your browser
+> Create and print calendars from your browser.
+
+Inspired by [this calendar](https://external-preview.redd.it/j4nPjy1pUfVELDMwloTn34jjLVSf94Bp-nlNL4SgE6M.jpg?auto=webp&s=1ac921b9ed6b8e71b73a603737d8a06f1ce8f073).
 
 ## Build Setup
 
@@ -17,11 +19,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
+# run unit tests (0% coverage at this time)
 npm run unit
 
-# run all tests
+# run all tests (0% coverage at this time)
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
